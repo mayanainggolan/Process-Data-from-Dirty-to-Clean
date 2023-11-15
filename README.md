@@ -29,6 +29,7 @@ Every data analyst wants clean data to work with when performing an analysis. In
 ```python
 import pandas as pd
 import pandas as pd
+
 # Contoh DataFrame dengan data yang perlu dibersihkan
 data = {'Nama': ['John', 'Jane', 'Bob', 'Alice'],
         'Usia': [25, 'Unknown', 30, 28],
@@ -48,6 +49,7 @@ df['Gaji'] = df['Gaji'].replace('[\$,]', '', regex=True).astype(float)
 print("\nDataFrame Setelah Pembersihan:")
 print(df)
 ```
+
 # Module 3: Cleaning Data with SQL
 Knowing a variety of ways to clean data can make an analyst’s job much easier. In this part of the course, you’ll check out how to clean your data using SQL. You’ll explore queries and functions that you can use in SQL to clean and transform your data to get it ready for analysis.
 
