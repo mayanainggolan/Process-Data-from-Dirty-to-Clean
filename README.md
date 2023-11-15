@@ -25,9 +25,10 @@ print(data.isnull().sum())
 
 # Module 2: Sparkling-clean Data
 Every data analyst wants clean data to work with when performing an analysis. In this part of the course, you’ll learn the difference between clean and dirty data. You’ll also explore data cleaning techniques using spreadsheets and other tools.
-import pandas as pd
-import pandas as pd
 
+```python
+import pandas as pd
+import pandas as pd
 # Contoh DataFrame dengan data yang perlu dibersihkan
 data = {'Nama': ['John', 'Jane', 'Bob', 'Alice'],
         'Usia': [25, 'Unknown', 30, 28],
@@ -46,7 +47,7 @@ df['Gaji'] = df['Gaji'].replace('[\$,]', '', regex=True).astype(float)
 # Menampilkan DataFrame setelah pembersihan
 print("\nDataFrame Setelah Pembersihan:")
 print(df)
-
+```
 # Module 3: Cleaning Data with SQL
 Knowing a variety of ways to clean data can make an analyst’s job much easier. In this part of the course, you’ll check out how to clean your data using SQL. You’ll explore queries and functions that you can use in SQL to clean and transform your data to get it ready for analysis.
 
